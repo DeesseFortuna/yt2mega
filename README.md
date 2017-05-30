@@ -2,6 +2,7 @@
 This is a bash script to backup whole YouTube channels to mega.nz.
 
 **Requires [youtube-dl](https://github.com/rg3/youtube-dl) and [megatools](https://github.com/megous/megatools).**
+
 Optionally, use [aria2](https://github.com/aria2/aria2) to speed up downloads using multiple segments/connections. (See [below](https://github.com/iowolf/yt2mega/blob/master/README.md#aria2c-with-youtube-dl-thanks-tobbez))
 
 Didn't spend a lot of time ironing things out or adding features, but here it is for anyone who wishes to use it.
