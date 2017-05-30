@@ -1,7 +1,7 @@
 # yt2mega
-Bash script to backup whole YouTube channels to mega.nz
+This is a bash script to backup whole YouTube channels to mega.nz.
 
-Requires [youtube-dl](https://github.com/rg3/youtube-dl) and [megatools](https://github.com/megous/megatools)
+Requires [youtube-dl](https://github.com/rg3/youtube-dl) and [megatools](https://github.com/megous/megatools).
 
 Didn't spend a lot of time ironing things out or adding features, but here it is for anyone who wishes to use it.
 
