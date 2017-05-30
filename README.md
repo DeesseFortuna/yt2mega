@@ -19,16 +19,18 @@ Flaws:
 - Haven't tested it, but deleted videos might mess up the indexing - Please let me know if you encounter this, and how you fixed it if you did.
 
 
-#aria2c with youtube-dl (thanks, [tobbez](https://github.com/tobbez))
+### aria2c with youtube-dl (thanks, [tobbez](https://github.com/tobbez))
 
 aria2c allows youtube-dl to optimize download speed with parallel segmented files. To use it, simply run the following either line by line or in a script:
 
+```
 mkdir -p ~/.config/youtube-dl/
 cat > ~/.config/youtube-dl/config <<EOF
 -o "[%(upload_date)s][%(id)s] %(title)s (by %(uploader)s).%(ext)s"
 --external-downloader aria2c
 --external-downloader-args "-c -j 3 -x 3 -s 3 -k 1M"
 EOF
+```
 
 --external-downloader-args cheatsheet:
 - -c, --continue[=true|false] [🔗](https://aria2.github.io/manual/en/html/aria2c.html#cmdoption-c)
