@@ -8,7 +8,7 @@ Didn't spend a lot of time ironing things out or adding features, but here it is
 Features:
 - Resumable/Schedulable (checks mega to see if the video is already backed up, by id grep)
 - Chronologically indexed filenames
-- Better than doing it by manually
+- Better than doing it manually
 
 Flaws:
 - Interrupted uploads don't fix themselves (if a half-uploaded file is on mega.nz, the script will skip it)
